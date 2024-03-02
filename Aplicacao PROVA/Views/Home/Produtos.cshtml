@@ -1,0 +1,104 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<main class="paginaIn-produtos">
+    <h1>Produtos</h1>
+    <div class="todos_Produtos">
+        <div class="nomeTodosProdutos">
+            <div class="tituloTodosProd">
+                <h2>Todos produtos</h2>
+            </div>
+            <div class="divbuttonTodosProd">
+                <span class="iconButton">
+                    <i class="bi bi-plus"></i>
+                </span>
+                <button class="buttonTodosProd"><span class="spanButton">Adicionar produto</span></button>
+            </div>
+        </div>
+        <!--{% if tem_produtos %}-->
+        <div class="infoProdutos">
+            <div class="dadoseInput">
+                <div class="dadosProdutos">
+                    <h2><span class="underlineh2">Total de unidades em estoque:</span><span class="cor"> 204</span></h2>
+                    <h2><span class="underlineh2">Valor total em estoque:</span><span class="cor"> R$ 6.005,19</span></h2>
+                    <h2><span class="underlineh2">Valor total de revenda:</span><span class="cor"> R$ 10.100.41</span></h2>
+                </div>
+                <div class="labeleInput">
+                    <label for="buscar" class="labelBus">Buscar:</label>
+                    <input type="text" class="inputBus">
+                </div>
+            </div>
+            <div class="titulosProdutos">
+                <div class="espaçotitle1">
+                    <h2 class="titulo1">#</h2>
+                    <span class="iconseta">
+                        <i class="bi bi-arrow-down-up"></i>
+                    </span>
+                </div>
+                <div class="espaçotitle2">
+                    <h2 class="titulo2">SKU</h2>
+                    <span class="iconseta">
+                        <i class="bi bi-arrow-down-up"></i>
+                    </span>
+                </div>
+                <div class="espaçotitle3">
+                    <h2 class="titulo3">Nome</h2>
+                    <span class="iconseta">
+                        <i class="bi bi-arrow-down-up"></i>
+                    </span>
+                </div>
+                <div class="espaçotitle4">
+                    <h2 class="titulo4">Vendas</h2>
+                    <span class="iconseta">
+                        <i class="bi bi-arrow-down-up"></i>
+                    </span>
+                </div>
+                <div class="espaçotitle5">
+                    <h2 class="titulo5">Estoque<br>total</h2>
+                    <span class="iconseta">
+                        <i class="bi bi-arrow-down-up"></i>
+                    </span>
+                </div>
+                <div class="espaçotitle6">
+                    <h2 class="titulo6">Custo total</h2>
+                    <span class="iconseta">
+                        <i class="bi bi-arrow-down-up"></i>
+                    </span>
+                </div>
+                <div class="espaçotitle7">
+                    <h2 class="titulo7">Revenda total</h2>
+                    <span class="iconseta">
+                        <i class="bi bi-arrow-down-up"></i>
+                    </span>
+                </div>
+            </div>
+            <!--{% for produto in produtos  %}-->
+            <div class="espaçoProd">
+                <div class="varProd1">
+                    <h2>{{produto.Cod}}</h2>
+                </div>
+                <div class="varProd2">
+                    <h2>{{produto.SKU}}</h2>
+                </div>
+                <div class="varProd3">
+                    <h2>{{produto.Nome}}</h2>
+                </div>
+                <div class="varProd4">
+                    <h2>{{produto.Vendas}}</h2>
+                </div>
+                <div class="varProd5">
+                    <h2>{{produto.EstoqueTotal}}</h2>
+                </div>
+                <div class="varProd6">
+                    <h2>{{produto.CustoTotal}}</h2>
+                </div>
+                <div class="varProd7">
+                    <h2>{{produto.RevendaTotal}}</h2>
+                </div>
+            </div>
+            <!--{% endfor %}-->
+        </div>
+        <!--{% endif %}-->
+</main>

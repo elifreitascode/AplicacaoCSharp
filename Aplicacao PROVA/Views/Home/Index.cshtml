@@ -1,0 +1,71 @@
+﻿@{
+    ViewData["Title"] = "Sistema de vendas";
+}
+
+<main class="pagina-inicial">
+    <h1>Resumo</h1>
+    <div class="container">
+        <section class="card" id="primeiro">
+            <div class="campo-texto">
+                <div class="vendas">
+                    <h2 id="primeiroh2vendas">Vendas hoje</h2>
+                    <h2 id="segundoh2vendas">R$ 0,00</h2>
+                </div>
+            </div>
+            <span class="icon-card" id="icondollar">
+                <i class="bi bi-currency-dollar"></i>
+            </span>
+        </section>
+        <section class="card" id="segundo">
+            <div class="campo-texto" id="campo1">
+                <div class="vendas" id="segundovenda">
+                    <h2 id="primeiroh2vendas">Vendas mensal</h2>
+                    <h2 id="segundoh2vendas">R$ 0,00</h2>
+                </div>
+            </div>
+            <span class="icon-card">
+                <i class="bi bi-calendar-fill"></i>
+            </span>
+        </section>
+        <section class="card" id="terceiro">
+            <form action="#">
+                <input type="submit" value="Efetuar" id="buttonum">
+                <input type="submit" value="nova venda" id="buttondois">
+            </form>
+            <span class="icon-card" id="iconplus">
+                <i class="bi bi-plus"></i>
+            </span>
+        </section>
+    </div>
+    <div class="card-aniversariante">
+        <div class="conteudo-aniversariante">
+            <div class="aniver-mes">
+                <h2>Aniversariantes do mês</h2>
+            </div>
+            <div class="mensagem-niver">
+                <h2>Nenhum aniversariante no mês</h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-estoque">
+        <div class="conteudo-estoque">
+            <div class="mensagem-estoque">
+                <h2>Produtos com estoque baixo</h2>
+            </div>
+            <div class="conteudo-produto">
+                <div class="titulos-estoque">
+                    <h2>Cód</h2>
+                    <h2>Quantidade</h2>
+                    <h2>Nome</h2>
+                    <h2>Valor do produto</h2>
+                </div>
+                <div class="informaçoes-estoque">
+                    <h2 id="h21">000</h2>
+                    <h2 id="h22">0</h2>
+                    <h2 id="h23">######</h2>
+                    <h2 id="h24">****,**</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

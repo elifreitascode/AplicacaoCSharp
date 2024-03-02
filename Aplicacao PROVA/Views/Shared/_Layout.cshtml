@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Sistema de vendas </title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/StyleInicio.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/StyleHome.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/StyleVendas.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/StyleProdutos.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/StyleClientes.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Aplicacao_PROVA.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-................................................................." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="conteudo">
+        <div class="tela">
+            <nav class="menu-lateral">
+                <div class="button-expandir">
+                    <i class="bi bi-list"></i>
+                </div>
+                <ul>
+                    <li class="item-menu" id="idPrincipalHome">
+                        <a id="idHome" asp-controller="Home" asp-action="Index">
+                            <span class="icon"><i class="bi bi-house"></i></span>
+                            <span class="txt-link">Home</span>
+                        </a>
+                    </li>
+                    <li class="item-menu" id="idPrincipalVen">
+                        <a id="idVen" asp-controller="Home" asp-action="Vendas">
+                            <span class="icon"><i class="bi bi-cash-stack"></i></span>
+                            <span class="txt-link">Vendas</span>
+                        </a>
+                    </li>
+                    <li class="item-menu" id="idPrincipalCli">
+                        <a id="idClie" asp-controller="Home" asp-action="Clientes">
+                            <span class="icon"><i class="bi bi-people"></i></span>
+                            <span class="txt-link">Clientes</span>
+                        </a>
+                    </li>
+                    <li class="item-menu" id="idPrincipalPro">
+                        <a id="idProd" asp-controller="Home" asp-action="Produtos">
+                            <span class="icon"><i class="bi bi-boxes"></i></span>
+                            <span class="txt-link">Produtos</span>
+                        </a>
+                    </li>
+                    <li class="item-menu" id="idPrincipalCon">
+                        <a asp-controller="Home" asp-action="Conta" >
+                            <span class="icon"><i class="bi bi-person-circle"></i></span>
+                            <span class="txt-link">Conta</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            @RenderBody()
+        </div>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

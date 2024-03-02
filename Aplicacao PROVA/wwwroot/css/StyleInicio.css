@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+#conteudo {
+    height: 100vh;
+    width: 91vw;
+    margin-left: 10vw;
+}
+
+.tela {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+body {
+    background-color: #e8e8e8e7;
+}
+
+nav.menu-lateral {
+    width: 5.5%;
+    height: 100%;
+    background-color: #1a3939;
+    padding: 40px 0px 40px 1%;
+    box-shadow: 4px 0px 0px #c9a672;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .3s;
+    overflow: hidden;
+}
+
+nav.menu-lateral:hover {
+    width: 250px;
+}
+
+.button-expandir {
+    width: 100%;
+    padding-left: 12px;
+}
+
+.button-expandir > i {
+    color: #fff;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+ul {
+    height: 100%;
+    list-style-type: none;
+    margin-left: 10px;
+    padding:1px;
+}
+
+ul li.item-menu {
+    transition: .2s;
+}
+
+ul li.item-menu:hover {
+    background: #c9a672;
+}
+
+ul li.item-menu > a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 5px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+ul li.item-menu > a .txt-link {
+    margin-left: 35px;
+    line-height: 31px;
+}
+
+ul li.item-menu > a .icon > i {
+    font-size: 25px;
+}
+
+.pagina-inicial {
+    display: flex;
+    width: 90vw;
+    height: 95vh;
+    margin: 30px 40px 40px 1%;
+    flex-direction: column;
+}
+
+.pagina-inicial > h1 {
+    margin-bottom: 10px;
+    color: #565555fd;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.card {
+    display: flex;
+    width: 230px;
+    height: 80px;
+    background-color: #f4efef;
+    border-radius: 9px;
+    padding: 15px 17px 12px 23px;
+    box-shadow: 9px 9px 26px #bebdbdab;
+    border-left: 4px solid #c9a672;
+}
+
+#primeiro {
+    margin-right: 140px;
+    padding: 15px 20px 12px 23px;
+}
+
+#segundo {
+    margin-left: 155px;
+    margin-right: 170px;
+}
+
+#terceiro {
+    margin-left: 85px;
+    cursor: pointer;
+}
+
+#segundovenda {
+    width: 74%;
+}
+
+.card-aniversariante {
+    width: 1240px;
+    height: 170px;
+    background-color: #f4efef;
+    margin-top: 10px;
+    border-left: 4px solid #fa9200;
+    border-radius: 10px;
+    margin-bottom: 13px;
+    padding: 20px 20px 24px 20px;
+    box-shadow: 9px 9px 26px #bebdbdab;
+}
+
+.card-estoque {
+    width: 1240px;
+    height: 300px;
+    background-color: #f4efef;
+    margin-top: 13px;
+    border-left: 4px solid #008F4D;
+    border-radius: 10px;
+    padding: 20px 20px 24px 20px;
+    box-shadow: 9px 9px 26px #bebdbdab;
+}
+
+.campo-texto {
+    display: flex;
+    height: 100%;
+    width: 76%;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+.vendas {
+    display: flex;
+    width: 75%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.vendas > h2 {
+    font-size: 12px;
+    width: 95%;
+    height: 37%;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+#primeiroh2vendas {
+    color: #c9a672;
+}
+
+#segundoh2vendas {
+    font-size: 21px;
+    width: 95%;
+    margin: 0;
+    height: 45%;
+    color: #494848fd;
+}
+
+form {
+    display: flex;
+    width: 70%;
+    height: 100%;
+    flex-direction: column;
+}
+
+input[type="submit"] {
+    display: flex;
+    text-transform: uppercase;
+    font-weight: 900;
+    justify-content: flex-start;
+    font-size: 12px;
+    border: none;
+}
+
+#buttondois {
+    margin-top: 4px;
+    height: 60%;
+    font-size: 15px;
+    color: #494848fd;
+    cursor: pointer;
+}
+
+#buttonum {
+    color: #c9a672;
+    cursor: pointer;
+}
+
+span.icon-card {
+    display: flex;
+    align-items: center;
+}
+
+span.icon-card > i {
+    font-size: 28px;
+    color: #a7a5a5cb;
+}
+
+#icondollar > i {
+    font-size: 35px;
+    margin-right: 7px;
+    margin-bottom: 2px;
+}
+
+#iconplus > i {
+    font-size: 43px;
+    margin-bottom: 2px;
+}
+
+.conteudo-aniversariante {
+    width: 100%;
+    height: 100%;
+}
+
+.aniver-mes {
+    display: flex;
+    flex-direction: column;
+    height: 78%;
+    justify-content: center;
+    border-radius: 7px;
+    background-color: #ebeaeaa2;
+}
+
+    .aniver-mes > h2 {
+        font-size: 12px;
+        text-transform: uppercase;
+        margin-left: 8px;
+        color: #d87e00;
+    }
+
+.mensagem-niver {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 22%;
+}
+
+.mensagem-niver > h2 {
+    font-size: 15px;
+    color: #818181f3;
+}
+
+.conteudo-estoque {
+    width: 100%;
+    height: 100%;
+}
+
+.mensagem-estoque {
+    display: flex;
+    flex-direction: column;
+    height: 34%;
+    justify-content: center;
+    border-radius: 7px;
+    background-color: #ebeaeaa2;
+}
+
+.mensagem-estoque > h2 {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-left: 8px;
+    color: #008245
+}
+
+.conteudo-produto {
+    margin-top: 4px;
+    display: flex;
+    height: 62%;
+    flex-direction: column;
+    padding: 7px;
+}
+
+.titulos-estoque {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 15%;
+    border-top: 1.5px solid #8d8d8df3;
+    border-bottom: 1.5px solid #8d8d8df3;
+}
+
+.titulos-estoque > h2 {
+    margin-top: 1.5px;
+    font-size: 14px;
+    color: #717171;
+}
+
+.informaçoes-estoque {
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f4f192a9;
+}
+
+.informaçoes-estoque > h2 {
+    margin-top: 4px;
+    font-size: 14px;
+    width: 8%;
+    color: #717171;
+}
