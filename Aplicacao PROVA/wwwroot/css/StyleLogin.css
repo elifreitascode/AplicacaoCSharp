@@ -1,0 +1,280 @@
+﻿@{
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body {
+    margin: 0%;
+    font-family: 'Noto-sans', sans-serif;
+}
+
+    body * {
+        box-sizing: border-box;
+    }
+
+.tagp {
+    color: #f4c680;
+    font-size: 15px;
+}
+
+    .tagp > a {
+        font-size: 15px;
+        color: #ffe1b4;
+        font-size: 15px;
+    }
+
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    background: #1a3939;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login {
+    width: 46%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 38px 47px;
+    background: #2b5656;
+    border-radius: 20px;
+    box-shadow: 0px 10px 15px 10px #12252574;
+}
+
+    .card-login > h1 {
+        color: #FFDEAD;
+        font-weight: 800px;
+        margin: 0px;
+    }
+
+.campo-texto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+    .campo-texto > input {
+        width: 100%;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        background: #7c979797;
+        color: #b5b3b3;
+        font-size: 11pt;
+        box-shadow: 0px 10px 40px #122525c1;
+        outline: none;
+        box-sizing: border-box;
+    }
+
+    .campo-texto > label {
+        margin: 3px 0px;
+        color: #fff;
+        margin-bottom: 5px 6px;
+    }
+
+    .campo-texto > input::placeholder {
+        color: #f7f7f7ae;
+    }
+
+a {
+    justify-content: center;
+}
+
+.justify-button {
+    display: flex;
+    justify-content: center;
+    margin: 23px;
+    height: 46px;
+    width: 100%;
+    background-color: #FFDEAD;
+    border-radius: 15px;
+    box-shadow: 0px 10px 40px#493e2ca0;
+}
+
+    .justify-button > button {
+        border: none;
+        background-color: #FFDEAD;
+        text-transform: uppercase;
+        font-weight: 900;
+        letter-spacing: 3px;
+        cursor: pointer;
+        color: #356666;
+        cursor: pointer;
+    }
+
+.right-card {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-frase {
+    margin-left: 4%;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+    .left-frase > h1 {
+        font-size: 2.5vw;
+        color: #FFDEAD;
+    }
+
+.left-imagem-login {
+    width: 30vw;
+}
+
+@media only screen and (max-width: 400px) {
+    .main-login {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .left-frase > h1 {
+        display: flex;
+        width: 100%;
+        height: 70%;
+        font-size: 19px;
+        justify-content: center;
+        margin-top: 5%;
+        align-items: center;
+    }
+
+    .left-frase {
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        width: 100%;
+        height: 52%;
+    }
+
+    .right-card {
+        width: 100%;
+        height: 48%;
+    }
+
+    .left-imagem-login {
+        width: 100%;
+        height: 67%;
+        margin-bottom: 4%;
+    }
+
+    .card-login {
+        height: 92%;
+        width: 70%;
+        padding: 4% 9.4%;
+    }
+
+        .card-login > h1 {
+            font-size: 20px;
+        }
+
+    .justify-button {
+        margin: 1.9% 1.8% 1.9% 1.8%;
+        height: 20%;
+        border-radius: 9px;
+    }
+
+        .justify-button > button {
+            font-size: 11px;
+        }
+
+    .campo-texto > label {
+        height: 45%;
+        font-size: 14.3px;
+    }
+
+    .campo-texto {
+        display: flex;
+        margin: 4%;
+    }
+
+        .campo-texto > input {
+            height: 53%;
+        }
+
+    .tagp {
+        margin: 9px;
+        font-size: 12px;
+    }
+
+        .tagp > a {
+            font-size: 12px;
+        }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 900px) {
+    .main-login {
+        flex-direction: column;
+    }
+
+    .left-frase {
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        width: 100%;
+        height: 52%;
+    }
+
+        .left-frase > h1 {
+            display: flex;
+            width: 100%;
+            height: 70%;
+            font-size: 30px;
+            justify-content: center;
+            margin-top: 5%;
+            align-items: center;
+        }
+
+    .right-card {
+        width: 100%;
+        height: 48%;
+    }
+
+    .left-imagem-login {
+        width: 100%;
+        height: 67%;
+        margin-bottom: 4%;
+    }
+
+    .card-login {
+        height: 88%;
+        width: 60%;
+        padding: 3.5% 8%;
+        margin-bottom: 4%;
+        justify-content: space-evenly;
+    }
+
+        .card-login > h1 {
+            font-size: 40px;
+        }
+
+    .campo-texto > input {
+        height: 100%;
+        font-size: 17px;
+    }
+
+    .campo-texto > label {
+        height: 50%;
+        font-size: 19px;
+    }
+
+    .tagp {
+        margin: 9px;
+        font-size: 20px;
+    }
+
+        .tagp > a {
+            font-size: 20px;
+        }
+}

@@ -1,0 +1,25 @@
+﻿@{
+    Layout = "_LayoutLogin";
+    ViewData["Title"] = "Login";
+}
+<div class="card-login">
+    <h1>LOGIN</h1>
+    <div id="msgError"></div>
+    <div class="campo-texto">
+        <label for="usuario" id="userLabel">Usuário</label>
+        <input type="text" id="usuario" placeholder="Usuário">
+    </div>
+    <div class="campo-texto">
+        <label for="senha" id="senhaLabel">Senha</label>
+        <input type="password" id="senha" placeholder="Senha">
+    </div>
+    <div class="justify-button">
+        <button onclick="entrar()">Entrar</button>
+    </div>
+    <p class="tagp">
+        Não tem uma conta ?
+        <a asp-controller="Login" asp-action="Signup">
+            Cadastre-se
+        </a>
+    </p>
+</div>

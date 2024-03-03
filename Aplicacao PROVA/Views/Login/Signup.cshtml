@@ -1,0 +1,30 @@
+﻿@{
+    Layout = "_LayoutLogin";
+    ViewData["Title"] = "Sign-up";
+}
+<div class="card-login" id="idcard">
+    <h1>SIGN UP</h1>
+    <div id="msgError"></div>
+
+    <div id="msgSuccess"></div>
+
+    <div class="campo-texto1" id="camponome">
+        <label for="nome" id="labelNome">Nome</label>
+        <input type="text" id="nome" placeholder="">
+    </div>
+    <div class="campo-texto1" id="campousuario">
+        <label for="usuario" id="labelUsuario">Usuario</label>
+        <input type="text" id="usuario" placeholder="">
+    </div>
+    <div class="campo-texto1" id="camposenha">
+        <label for="senha" id="labelSenha">Senha</label>
+        <input type="password" id="senha" placeholder=" ">
+    </div>
+    <div class="campo-texto1" id="campoconfirmacao">
+        <label for="confirmSenha" id="labelConfirmSenha">Confirmação de senha</label>
+        <input type="password" id="confirmSenha" placeholder=" ">
+    </div>
+    <div class="justify-button">
+        <button onclick="cadastrar()">Cadastrar</button>
+    </div>
+</div>
