@@ -245,7 +245,6 @@ C:\Users\elize\OneDrive\Área de Trabalho\Aplicacao c#\Aplicacao PROVA\obj\Debug
 C:\Users\elize\OneDrive\Área de Trabalho\Aplicacao c#\Aplicacao PROVA\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\elize\OneDrive\Área de Trabalho\Aplicacao c#\Aplicacao PROVA\obj\Debug\net8.0\scopedcss\bundle\Aplicacao c#.styles.css
 C:\Users\elize\OneDrive\Área de Trabalho\Aplicacao c#\Aplicacao PROVA\obj\Debug\net8.0\scopedcss\projectbundle\Aplicacao c#.bundle.scp.css
-C:\Users\elize\OneDrive\Área de Trabalho\Aplicacao c#\Aplicacao PROVA\obj\Debug\net8.0\Aplicacao c#.csproj.CopyComplete
 C:\Users\elize\OneDrive\Área de Trabalho\Aplicacao c#\Aplicacao PROVA\obj\Debug\net8.0\Aplicacao c#.dll
 C:\Users\elize\OneDrive\Área de Trabalho\Aplicacao c#\Aplicacao PROVA\obj\Debug\net8.0\refint\Aplicacao c#.dll
 C:\Users\elize\OneDrive\Área de Trabalho\Aplicacao c#\Aplicacao PROVA\obj\Debug\net8.0\Aplicacao c#.pdb
@@ -253,3 +252,4 @@ C:\Users\elize\OneDrive\Área de Trabalho\Aplicacao c#\Aplicacao PROVA\obj\Debug
 C:\Users\elize\OneDrive\Área de Trabalho\Aplicacao c#\Aplicacao PROVA\obj\Debug\net8.0\ref\Aplicacao c#.dll
 C:\Users\elize\OneDrive\Área de Trabalho\Aplicacao c#\Aplicacao PROVA\obj\Debug\net8.0\Aplicacao c#.sourcelink.json
 C:\Users\elize\OneDrive\Área de Trabalho\Aplicacao c#\Aplicacao PROVA\obj\Debug\net8.0\scopedcss\Views\Shared\_LayoutLogin.cshtml.rz.scp.css
+C:\Users\elize\OneDrive\Área de Trabalho\Aplicacao c#\Aplicacao PROVA\obj\Debug\net8.0\Aplicaca.D6DCBE0F.Up2Date
