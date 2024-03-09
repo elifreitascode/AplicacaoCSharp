@@ -7994,19 +7994,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\moise\\.nuget\\packages\\": {}
+    "C:\\Users\\elize\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\moise\\Source\\Repos\\AplicacaoCSharp\\Aplicacao PROVA\\Aplicacao c#.csproj",
+      "projectUniqueName": "C:\\Users\\elize\\OneDrive\\Área de Trabalho\\Aplicacao c#\\Aplicacao PROVA\\Aplicacao c#.csproj",
       "projectName": "Aplicacao c#",
-      "projectPath": "C:\\Users\\moise\\Source\\Repos\\AplicacaoCSharp\\Aplicacao PROVA\\Aplicacao c#.csproj",
-      "packagesPath": "C:\\Users\\moise\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\moise\\Source\\Repos\\AplicacaoCSharp\\Aplicacao PROVA\\obj\\",
+      "projectPath": "C:\\Users\\elize\\OneDrive\\Área de Trabalho\\Aplicacao c#\\Aplicacao PROVA\\Aplicacao c#.csproj",
+      "packagesPath": "C:\\Users\\elize\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\elize\\OneDrive\\Área de Trabalho\\Aplicacao c#\\Aplicacao PROVA\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\moise\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\elize\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8026,6 +8026,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -8074,7 +8079,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
