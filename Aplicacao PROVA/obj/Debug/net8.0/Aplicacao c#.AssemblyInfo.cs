@@ -14,15 +14,8 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Aplicacao c#")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de90534f68e0f08af74f41212018b293fdbf9d9f")]
-=======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b7dd134628c2a035224c69fd24e588806bf8582")]
->>>>>>> Stashed changes
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+588eab0f7d8221f279f920c637182b2a34693439")]
->>>>>>> dd4754e67ddb302c53ccc895b95c78752b22cbe3
 [assembly: System.Reflection.AssemblyProductAttribute("Aplicacao c#")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aplicacao c#")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
