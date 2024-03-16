@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\Aplicacao c#.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\elize\\OneDrive\\Área de Trabalho\\Aplicacao c#\\Aplicacao PROVA\\wwwroot\\Image\\animatesales.svg",
+      "PackagePath": "staticwebassets\\Image\\animatesales.svg"
+    },
+    {
+      "Id": "C:\\Users\\elize\\OneDrive\\Área de Trabalho\\Aplicacao c#\\Aplicacao PROVA\\wwwroot\\Image\\animatestock.svg",
+      "PackagePath": "staticwebassets\\Image\\animatestock.svg"
+    },
+    {
       "Id": "C:\\Users\\elize\\OneDrive\\Área de Trabalho\\Aplicacao c#\\Aplicacao PROVA\\wwwroot\\css\\StyleClientes.css",
       "PackagePath": "staticwebassets\\css\\StyleClientes.css"
     },
