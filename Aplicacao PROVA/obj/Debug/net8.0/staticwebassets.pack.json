@@ -45,6 +45,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\elize\\OneDrive\\Área de Trabalho\\Aplicacao c#\\Aplicacao PROVA\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "C:\\Users\\elize\\OneDrive\\Área de Trabalho\\Aplicacao c#\\Aplicacao PROVA\\wwwroot\\js\\signup.js",
+      "PackagePath": "staticwebassets\\js\\signup.js"
+    },
+    {
       "Id": "C:\\Users\\elize\\OneDrive\\Área de Trabalho\\Aplicacao c#\\Aplicacao PROVA\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
