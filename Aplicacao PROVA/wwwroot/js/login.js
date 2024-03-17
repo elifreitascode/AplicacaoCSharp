@@ -1,0 +1,54 @@
+﻿let btn = document.querySelector('.fa-eye')
+
+btn.addEventListener('click', () => {
+    let inputSenha = document.querySelector('#senha')
+
+    if (inputSenha.getAttribute('type') == 'password') {
+        inputSenha.setAttribute('type', 'text')
+    } else {
+        inputSenha.setAttribute('type', 'password')
+    }
+})
+function entrar() {
+    let usuario = document.querySelector('#usuario')
+
+    let senha = document.querySelector('#senha')
+
+    let msgError = document.querySelector('#msgError')
+    let listaUser = []
+
+    let userValid = {
+        nome: "",
+        user: "",
+        senha: ""
+    }
+
+    listaUser = JSON.parse(localStorage.getItem('listaUser'))
+
+    listaUser.forEach((item) => {
+        if (usuario.value == item.userCad && senha.value == item.senhaCad) {
+
+            userValid = {
+                nome: item.nomeCad,
+                user: item.userCad,
+                senha: item.senhaCad
+            }
+
+        }
+    })
+
+    if (usuario.value == userValid.user && senha.value == userValid.senha) {
+        window.location.href = '.././templates/login/pages/login.html'
+
+        let mathRandom = Math.random().toString(16).substring(2)
+        let token = mathRandom + mathRandom
+
+        localStorage.setItem('token', token)
+        localStorage.setItem('userLogado', JSON.stringify(userValid))
+    } else {
+        msgError.setAttribute('style', 'color: red', 'display: block')
+        msgError.innerHTML = 'Usuário ou senha incorretos'
+        usuario.focus()
+    }
+
+}

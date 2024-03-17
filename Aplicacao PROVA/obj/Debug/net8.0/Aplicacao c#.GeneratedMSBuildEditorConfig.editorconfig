@@ -17,87 +17,87 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Aplicacao_PROVA
 build_property.RootNamespace = Aplicacao_PROVA
-build_property.ProjectDir = C:\Users\caiqu\OneDrive\Área de Trabalho\AplicacaoCSharp\Aplicacao PROVA\
+build_property.ProjectDir = C:\Users\elize\OneDrive\Área de Trabalho\Aplicacao c#\Aplicacao PROVA\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\caiqu\OneDrive\Área de Trabalho\AplicacaoCSharp\Aplicacao PROVA
+build_property.MSBuildProjectDirectory = C:\Users\elize\OneDrive\Área de Trabalho\Aplicacao c#\Aplicacao PROVA
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/caiqu/OneDrive/Área de Trabalho/AplicacaoCSharp/Aplicacao PROVA/Views/Home/Clientes.cshtml]
+[C:/Users/elize/OneDrive/Área de Trabalho/Aplicacao c\#/Aplicacao PROVA/Views/Home/Clientes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDbGllbnRlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/caiqu/OneDrive/Área de Trabalho/AplicacaoCSharp/Aplicacao PROVA/Views/Home/Conta.cshtml]
+[C:/Users/elize/OneDrive/Área de Trabalho/Aplicacao c\#/Aplicacao PROVA/Views/Home/Conta.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/caiqu/OneDrive/Área de Trabalho/AplicacaoCSharp/Aplicacao PROVA/Views/Home/Index.cshtml]
+[C:/Users/elize/OneDrive/Área de Trabalho/Aplicacao c\#/Aplicacao PROVA/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/caiqu/OneDrive/Área de Trabalho/AplicacaoCSharp/Aplicacao PROVA/Views/Home/Privacy.cshtml]
+[C:/Users/elize/OneDrive/Área de Trabalho/Aplicacao c\#/Aplicacao PROVA/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/caiqu/OneDrive/Área de Trabalho/AplicacaoCSharp/Aplicacao PROVA/Views/Home/Produtos.cshtml]
+[C:/Users/elize/OneDrive/Área de Trabalho/Aplicacao c\#/Aplicacao PROVA/Views/Home/Produtos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdXRvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/caiqu/OneDrive/Área de Trabalho/AplicacaoCSharp/Aplicacao PROVA/Views/Home/Vendas.cshtml]
+[C:/Users/elize/OneDrive/Área de Trabalho/Aplicacao c\#/Aplicacao PROVA/Views/Home/Vendas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZW5kYXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/caiqu/OneDrive/Área de Trabalho/AplicacaoCSharp/Aplicacao PROVA/Views/Login/Index.cshtml]
+[C:/Users/elize/OneDrive/Área de Trabalho/Aplicacao c\#/Aplicacao PROVA/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/caiqu/OneDrive/Área de Trabalho/AplicacaoCSharp/Aplicacao PROVA/Views/Login/Signup.cshtml]
+[C:/Users/elize/OneDrive/Área de Trabalho/Aplicacao c\#/Aplicacao PROVA/Views/Login/Signup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2lnbnVwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/caiqu/OneDrive/Área de Trabalho/AplicacaoCSharp/Aplicacao PROVA/Views/Shared/Error.cshtml]
+[C:/Users/elize/OneDrive/Área de Trabalho/Aplicacao c\#/Aplicacao PROVA/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/caiqu/OneDrive/Área de Trabalho/AplicacaoCSharp/Aplicacao PROVA/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/elize/OneDrive/Área de Trabalho/Aplicacao c\#/Aplicacao PROVA/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/caiqu/OneDrive/Área de Trabalho/AplicacaoCSharp/Aplicacao PROVA/Views/VendasModels/Create.cshtml]
+[C:/Users/elize/OneDrive/Área de Trabalho/Aplicacao c\#/Aplicacao PROVA/Views/VendasModels/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGFzTW9kZWxzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/caiqu/OneDrive/Área de Trabalho/AplicacaoCSharp/Aplicacao PROVA/Views/VendasModels/Delete.cshtml]
+[C:/Users/elize/OneDrive/Área de Trabalho/Aplicacao c\#/Aplicacao PROVA/Views/VendasModels/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGFzTW9kZWxzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/caiqu/OneDrive/Área de Trabalho/AplicacaoCSharp/Aplicacao PROVA/Views/VendasModels/Details.cshtml]
+[C:/Users/elize/OneDrive/Área de Trabalho/Aplicacao c\#/Aplicacao PROVA/Views/VendasModels/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGFzTW9kZWxzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/caiqu/OneDrive/Área de Trabalho/AplicacaoCSharp/Aplicacao PROVA/Views/VendasModels/Edit.cshtml]
+[C:/Users/elize/OneDrive/Área de Trabalho/Aplicacao c\#/Aplicacao PROVA/Views/VendasModels/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGFzTW9kZWxzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/caiqu/OneDrive/Área de Trabalho/AplicacaoCSharp/Aplicacao PROVA/Views/VendasModels/Index.cshtml]
+[C:/Users/elize/OneDrive/Área de Trabalho/Aplicacao c\#/Aplicacao PROVA/Views/VendasModels/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGFzTW9kZWxzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/caiqu/OneDrive/Área de Trabalho/AplicacaoCSharp/Aplicacao PROVA/Views/_ViewImports.cshtml]
+[C:/Users/elize/OneDrive/Área de Trabalho/Aplicacao c\#/Aplicacao PROVA/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/caiqu/OneDrive/Área de Trabalho/AplicacaoCSharp/Aplicacao PROVA/Views/_ViewStart.cshtml]
+[C:/Users/elize/OneDrive/Área de Trabalho/Aplicacao c\#/Aplicacao PROVA/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/caiqu/OneDrive/Área de Trabalho/AplicacaoCSharp/Aplicacao PROVA/Views/Shared/_Layout.cshtml]
+[C:/Users/elize/OneDrive/Área de Trabalho/Aplicacao c\#/Aplicacao PROVA/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-5jg78v0dv8
 
-[C:/Users/caiqu/OneDrive/Área de Trabalho/AplicacaoCSharp/Aplicacao PROVA/Views/Shared/_LayoutLogin.cshtml]
+[C:/Users/elize/OneDrive/Área de Trabalho/Aplicacao c\#/Aplicacao PROVA/Views/Shared/_LayoutLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-otktb28m7w
