@@ -362,3 +362,7 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /Aplicacao PROVA/Views/Login/Index.cshtml
+
+# Ignorar a pasta bin e todos os seus arquivos e subpastas
+bin/
+
